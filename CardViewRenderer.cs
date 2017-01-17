@@ -1,14 +1,16 @@
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
 using CoreGraphics;
-using movinspire.iOS.Renderers;
+using XFRenderers.iOS.Renderers;
 using Xamarin.Forms;
 
 [assembly: ExportRenderer(typeof(Frame), typeof(CardViewRenderer))]
-namespace movinspire.iOS.Renderers
-{
-   /* Elegant looking frame on iOS
+namespace XFRenderers.iOS.Renderers
+{   
+   /* Elegant looking frame (CardView) on iOS
+    * This totally ignores some Element properties
       with minor modifications to this post http://stackoverflow.com/a/40820035 */
+
     public class CardViewRenderer : FrameRenderer
     {
         public override void Draw(CGRect rect)
