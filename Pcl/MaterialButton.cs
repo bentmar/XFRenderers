@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace Qandea.App.CustomControllers
+namespace Hello
 {
     public class MaterialButton : Button
     {

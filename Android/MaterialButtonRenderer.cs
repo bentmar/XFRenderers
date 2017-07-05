@@ -3,8 +3,7 @@ using Android.Views;
 using Xamarin.Forms;
 
 using Android.Support.V7.Widget;
-using Qandea.App.Droid.Renderers;
-using Qandea.App.CustomControllers;
+
 using Android.Support.V4.Graphics.Drawable;
 using Android.Graphics.Drawables;
 using Xamarin.Forms.Platform.Android.AppCompat;
@@ -14,7 +13,7 @@ using System.ComponentModel;
 using System;
 
 [assembly: ExportRenderer(typeof(MaterialButton), typeof(MaterialButtonRenderer))]
-namespace Qandea.App.Droid.Renderers
+namespace Hello.Android
 {
     public class MaterialButtonRenderer : Xamarin.Forms.Platform.Android.AppCompat.ButtonRenderer
     {
