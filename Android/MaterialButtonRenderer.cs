@@ -34,7 +34,7 @@ namespace Hello.Android
             {
                 btn = new AppCompatButton(base.Context);
                 btn.Click += Btn_Click;
-                btn.SetTextColor(Element.TextColor.ToAndroid());
+                
                 btn.Enabled = Element.IsEnabled;
                
                 if (((MaterialButton)Element).IsFlat)
