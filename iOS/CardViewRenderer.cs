@@ -48,6 +48,7 @@ namespace XFRenderers.iOS.Renderers
 
             Layer.RasterizationScale = UIScreen.MainScreen.Scale;
             Layer.ShouldRasterize = true;
+
         }
     }
 }
