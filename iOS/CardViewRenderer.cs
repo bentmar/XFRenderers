@@ -15,8 +15,10 @@ namespace XFRenderers.iOS.Renderers
     {
         public override void Draw(CGRect rect)
         {
+            
             SetupShadowLayer();
             base.Draw(rect);
+
         }
 
         void SetupShadowLayer()
